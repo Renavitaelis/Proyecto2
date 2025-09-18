@@ -12,3 +12,9 @@
     /*HAL_GPIO_WritePin(GPIOA, Vleds<<3, 1);
     HAL_GPIO_WritePin(GPIOA, ~(Vleds)<<3, 0); 
     Vleds++;*/
+
+//Contador Binário Regressivo de Leds:
+  HAL_GPIO_WritePin(GPIOA, ~(Vleds)<<3, 1);
+  HAL_GPIO_WritePin(GPIOA, Vleds<<3, 0); 
+  Vleds++;
+  

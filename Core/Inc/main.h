@@ -61,17 +61,16 @@ void Error_Handler(void);
 #define KIT_LED_GPIO_Port GPIOC
 #define Az_Pin GPIO_PIN_3
 #define Az_GPIO_Port GPIOA
-#define Verm_Pin GPIO_PIN_4
-#define Verm_GPIO_Port GPIOA
+#define Vm_Pin GPIO_PIN_4
+#define Vm_GPIO_Port GPIOA
 #define Am_Pin GPIO_PIN_5
 #define Am_GPIO_Port GPIOA
-#define Ver_Pin GPIO_PIN_6
-#define Ver_GPIO_Port GPIOA
+#define Ve_Pin GPIO_PIN_6
+#define Ve_GPIO_Port GPIOA
 #define Br_Pin GPIO_PIN_7
 #define Br_GPIO_Port GPIOA
 #define Bot_Pin GPIO_PIN_12
 #define Bot_GPIO_Port GPIOB
-
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
